@@ -1,0 +1,16 @@
+
+.navbar {
+    text-align: center;
+    
+}
+
+.navbar a {
+    font-size: 30px;
+    padding: 37px;
+    text-decoration: none;
+}
+
+.navbar li {
+    display: inline;
+    text-align: center;
+}

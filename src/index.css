@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ededed !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.makeStyles-tableContainer-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  color: #333333;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, 249%);
+  transform: translate(-50%, 249%);
+}
+
+.etable h6 {
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  padding: 20px 0px 20px 20px !important;
+}
+
+.etable {
+  margin: 10px, 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  width: 64%;
+}
+
+.MuiPaper-rounded {
+  border-radius: 14px !important;
+}
+
+.MTableHeader-header-13 {
+  font-size: 18px !important;
+  text-align: center !important;
+  padding: 20px !important;
+  font-weight: 600 !important;
+}
+
+.MuiPaper-elevation2 {
+  padding: 48px !important;
+}
+
+
+/* Loading screen editing */
+
+.loadingcenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/* Calendar editing */
+
+.calendar {
+  max-width: 1200px;
+  max-height: 600px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, 19%);
+  transform: translate(-50%, 19%);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  border-radius: 13px;
+  overflow: auto;
+}
+
+.e-schedule .e-schedule-toolbar .e-active-view .e-tbar-btn-text, .e-schedule .e-schedule-toolbar .e-active-view .e-icons {
+  color: #30409f;
+  font-weight: 600 !important;
+}
+
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary {
+  background-color: transparent;
+  border-color: transparent;
+  color: #30409f;
+}
+
+.e-btn.e-flat.e-primary:hover, .e-css.e-btn.e-flat.e-primary:hover {
+  background-color: rgba(50, 103, 246, 0.04);
+  border-color: transparent;
+  color: #30409f;
+}
+
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn .e-tbar-btn-text {
+  font-weight: 500;
+}
+
+.e-schedule .e-vertical-view .e-header-cells.e-current-day {
+  color: #30409f;
+  font-weight: 600 !important;
+}
+
+.e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check {
+  background-color: #30409f;
+}
+
+.e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line::before, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line::after, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line::before, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line::after, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line::before, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line::after, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line::before, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line::after,
+.e-checkbox-wrapper:hover .e-frame.e-check, .e-css.e-checkbox-wrapper:hover .e-frame.e-check,
+.e-float-input:not(.e-input-group) .e-float-line::before, .e-float-input:not(.e-input-group) .e-float-line::after, .e-float-input:not(.e-input-group) .e-float-line::before, .e-float-input:not(.e-input-group) .e-float-line::after, .e-float-input.e-control-wrapper:not(.e-input-group) .e-float-line::before, .e-float-input.e-control-wrapper:not(.e-input-group) .e-float-line::after, .e-float-input.e-control-wrapper:not(.e-input-group) .e-float-line::before, .e-float-input.e-control-wrapper:not(.e-input-group) .e-float-line::after,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+input.e-input::selection, textarea.e-input::selection, .e-input-group input.e-input::selection, .e-input-group.e-control-wrapper input.e-input::selection, .e-float-input input::selection, .e-float-input.e-control-wrapper input::selection, .e-input-group textarea.e-input::selection, .e-input-group.e-control-wrapper textarea.e-input::selection, .e-float-input textarea::selection, .e-float-input.e-control-wrapper textarea::selection {
+  background: #30409f;
+}
+
+.e-datetime-wrapper.e-input-group:not(.e-disabled) .e-input-group-icon.e-active:active,
+.e-float-input:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-bigger:not(.e-error) input:focus ~ label.e-float-text, .e-bigger .e-float-input:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-small:not(.e-error) input:focus ~ label.e-float-text, .e-small .e-float-input:not(.e-error) input:focus ~ label.e-float-text, .e-float-input:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-bigger:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-small:not(.e-error) input[readonly]:focus ~ label.e-float-text, .e-small .e-float-input:not(.e-error) input[readonly]:focus ~ label.e-float-text.e-label-top, .e-float-input.e-small.e-bigger:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-small:not(.e-error) input[readonly]:focus ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error) input[readonly]:focus ~ label.e-float-text.e-label-top, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error) input[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-bigger:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-small:not(.e-error).e-input-focus input[readonly] ~ label.e-float-text, .e-small .e-float-input:not(.e-error).e-input-focus input[readonly] ~ label.e-float-text.e-label-top, .e-float-input.e-small.e-bigger:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus input[readonly] ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input[readonly] ~ label.e-float-text.e-label-top, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus input[readonly] ~ label.e-label-top.e-float-text, .e-float-input:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-bigger:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input.e-small:not(.e-error) textarea[readonly]:focus ~ label.e-float-text, .e-small .e-float-input:not(.e-error) textarea[readonly]:focus ~ label.e-float-text.e-label-top, .e-float-input.e-small.e-bigger:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text .e-float-input.e-control-wrapper.e-small:not(.e-error) textarea[readonly]:focus ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error) textarea[readonly]:focus ~ label.e-float-text.e-label-top, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error) textarea[readonly]:focus ~ label.e-label-top.e-float-text, .e-float-input:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-bigger:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-small:not(.e-error).e-input-focus textarea[readonly] ~ label.e-float-text, .e-small .e-float-input:not(.e-error).e-input-focus textarea[readonly] ~ label.e-float-text.e-label-top, .e-float-input.e-small.e-bigger:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus textarea[readonly] ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error).e-input-focus textarea[readonly] ~ label.e-float-text.e-label-top, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus textarea[readonly] ~ label.e-label-top.e-float-text, .e-float-input.e-small.e-bigger:not(.e-error) input:focus ~ label.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error) input:focus ~ label.e-float-text, .e-float-input:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-bigger:not(.e-error) textarea:focus ~ label.e-float-text, .e-bigger .e-float-input:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-small:not(.e-error) textarea:focus ~ label.e-float-text, .e-small .e-float-input:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-small.e-bigger:not(.e-error) textarea:focus ~ label.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-control-wrapper:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error) input:focus ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small:not(.e-error) input:focus ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error) input:focus ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error) input:focus ~ label.e-float-text, .e-float-input.e-control-wrapper:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error) textarea:focus ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small:not(.e-error) textarea:focus ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error) textarea:focus ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error) textarea:focus ~ label.e-float-text, .e-float-input:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-bigger:not(.e-error).e-input-focus input ~ label.e-float-text, .e-bigger .e-float-input:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-small:not(.e-error).e-input-focus input ~ label.e-float-text, .e-small .e-float-input:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-small.e-bigger:not(.e-error).e-input-focus input ~ label.e-float-text, .e-bigger .e-float-input.e-small:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-control-wrapper.e-bigger:not(.e-error).e-input-focus input ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus input ~ label.e-float-text, .e-small .e-float-input.e-control-wrapper:not(.e-error).e-input-focus input ~ label.e-float-text, .e-float-input.e-control-wrapper.e-small.e-bigger:not(.e-error).e-input-focus input ~ label.e-float-text, .e-bigger .e-float-input.e-control-wrapper.e-small:not(.e-error).e-input-focus input ~ label.e-float-text {
+  color: #30409f;
+}
+
+.e-calendar .e-content td.e-today.e-selected:hover span.e-day, .e-calendar .e-content td.e-selected:hover span.e-day, .e-calendar .e-content td.e-selected.e-focused-date span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-today.e-selected:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected.e-focused-date span.e-day {
+  background-color: #30409f;
+}
+
+.e-calendar .e-content td.e-today.e-selected span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-today.e-selected span.e-day {
+  background-color: #30409f;
+  border: 1px solid #30409f;
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment {
+  border-radius: 7px;
+  color: #fff;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border: unset;
+  padding: 2px 0px 0px 10px;
+}
+
+.e-schedule .e-vertical-view .e-all-day-appointment-wrapper .e-appointment {
+  border-radius: 7px;
+  padding-left: 8px;
+}
+
+.e-resources-row {
+  display: none;
+}
